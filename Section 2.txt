@@ -1,0 +1,23 @@
+1 Describe main purposes and activities associated with each stage of database application lifecycle.
+
+2 Compare and contrast the three phases of database design.
+
+3 Describe the main advantages of using prototyping approach when building database application.
+
+4 What is timestamp? How timestamp do based protocols for concurrency control differ from locking?
+
+5 Explain the types of transparencies in a DDBMS.
+
+6 Explain single site processing, single site data.
+
+7 What is meant by term client server architecture and what are the advantages of this approach?
+
+8 What is TP monitor? What advantages does TP monitor bring to an OLTP environment?
+
+9 Give diagrammatic representation of architecture and components of data warehouse.
+
+10 Explain in detail decision support system.
+
+11 Discuss what online analytical processing is and how it differs from data warehousing.
+
+12 Explain data mining in detail.

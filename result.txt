@@ -1,0 +1,83 @@
+1 Differentiate centralized and decentralized design.
+
+2 What is data abstraction?
+
+3 What are the differences between serial and non serial schedules?
+
+4 What are the advantages and disadvantages of DDBMS?
+
+5 What layers of transparency should be provided with a DDBMS?
+
+6 What is data replication?
+
+7 What is local mapping transparency?
+
+8 Describe two phase locking protocol.
+
+9 What is load balancing?
+
+10 What are the disadvantages of file server architecture?
+
+11 Discuss main tasks associated with the administration and management of a data warehouse.
+
+12 What is warehouse manager?
+
+13 Describe Codd’s rules for OLAP tools.
+
+14 What is predictive modeling?
+
+15 Define primary key and super key.
+1 Describe main purposes and activities associated with each stage of database application lifecycle.
+
+2 Compare and contrast the three phases of database design.
+
+3 Describe the main advantages of using prototyping approach when building database application.
+
+4 What is timestamp? How timestamp do based protocols for concurrency control differ from locking?
+
+5 Explain the types of transparencies in a DDBMS.
+
+6 Explain single site processing, single site data.
+
+7 What is meant by term client server architecture and what are the advantages of this approach?
+
+8 What is TP monitor? What advantages does TP monitor bring to an OLTP environment?
+
+9 Give diagrammatic representation of architecture and components of data warehouse.
+
+10 Explain in detail decision support system.
+
+11 Discuss what online analytical processing is and how it differs from data warehousing.
+
+12 Explain data mining in detail.
+1. Explain three level database architecture. What are its objectives?
+
+2. What do data independence and its types? How data independence is achieved?
+
+3. What are advantages of DBMS?
+
+4. Discuss the main disadvantages of a Traditional file approach?
+
+5. What is a JOIN operation? How is it represented? Explain with example.
+
+6. How does a tuple relational calculus differ from domain relational calculus?1. List down advantages of RDBMS over traditional file system. And explain the role of Database administrator.
+
+2.  What is Normalization? Explain the various types of normalization with its advantages and disadvantages?
+
+3.  What are Indexes? Explain the use of Indexes.
+
+4.  Explain how you can optimize your Query.1. What is the need of Backup in a database system?
+
+2. Describe the methods used for Backup and recovery?
+
+3. What is the purpose of Rollback?
+
+4. What do you understand from functional dependencies?
+
+5. What is data redundancy? How does it affect consistency?
+
+6. Explain Data Independence and its types in brief.
+
+7. What is meant by the concurrent execution of database transaction in a multi-user system? Discuss why concurrency control is needed, discuss with some examples
+
+8. Explain various Recovery techniques.
