@@ -1,7 +1,12 @@
-1. List down advantages of RDBMS over traditional file system. And explain the role of Database administrator.
+1.  List down advantages of RDBMS over traditional file system.
 
-2.  What is Normalization? Explain the various types of normalization with its advantages and disadvantages?
+2.  Explain the role of Database administrator.
 
-3.  What are Indexes? Explain the use of Indexes.
+3.  What is Normalization?
 
-4.  Explain how you can optimize your Query.
+4.  Explain the various types of normalization with its advantages and disadvantages?
+
+5.  What are Indexes? Explain the use of Indexes.
+
+6.  Explain how you can optimize your Query.
+
