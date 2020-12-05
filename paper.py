@@ -13,12 +13,11 @@ for i in sorted_values:
     filenames.append(f'{i}.txt')
 
 # Merging them in One txt file
-with open('result.txt','w') as d:
+with open('result.txt', 'w') as d:
     for i in filenames:
         with open(i) as s:
             d.write(s.read())
         d.write("\n")
-
 
 # Convert text file into pdf
 title = "Siliguri Institute of Technology"
@@ -36,7 +35,7 @@ class PDF(FPDF):
         # Title
         self.text(62, 15, title)
         self.line(self.l_margin, self.t_margin, self.fw - self.r_margin, self.t_margin)
-        self.line(self.l_margin, self.t_margin+1, self.fw - self.r_margin, self.t_margin+1)
+        self.line(self.l_margin, self.t_margin + 1, self.fw - self.r_margin, self.t_margin + 1)
 
     # Page footer
     def footer(self):
