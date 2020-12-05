@@ -1,25 +1,26 @@
 from fpdf import FPDF
+import json
 
-# 5 Text files into 1 Text
-with open('Section 1.txt') as p:
-    data = p.read()
-with open('Section 2.txt') as p:
-    data2 = p.read()
-with open('Section 3.txt') as p:
-    data3 = p.read()
-with open('Section 4.txt') as p:
-    data4 = p.read()
-with open('Section 5.txt') as p:
-    data5 = p.read()
+# Json to Dict
+with open('data.json') as jf:
+    data_dict = json.load(jf)
+print(data_dict)
 
-data += "\n"
-data = data + data2 + data3 + data4 + data5
+# Sorting Dict and Saving them in List
+sorted_values = dict(sorted(data_dict.items(), key=lambda item: item[1]))
+filenames = []
+for i in sorted_values:
+    filenames.append(f'{i}.txt')
 
-with open("result.txt", 'w') as d:
-    d.write(data)
+# Merging them in One txt file
+with open('result.txt','w') as d:
+    for i in filenames:
+        with open(i) as s:
+            d.write(s.read())
+        d.write("\n")
+
 
 # Convert text file into pdf
-
 title = "Siliguri Institute of Technology"
 sub_title = "Simpsoft Solutions"
 
