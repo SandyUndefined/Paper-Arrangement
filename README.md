@@ -1,7 +1,9 @@
 # Paper-Arrangement
-**_This is CLI program to arrange text file into PDF according JSON data._**
+**Problem:** Arrange text files into PDF according to JSON format given.
 
-**Django based program to do the same is** [here](https://github.com/SandyUndefined/Django-Paper-Arrangement).
+I took this problem like setting question paper and different section refer as different text files.
+
+**_This is CLI program.If you want to web based program please refer here_** [here](https://github.com/SandyUndefined/Django-Paper-Arrangement).
 
 
 ## How to Run
